@@ -19,5 +19,7 @@ class FormsController extends Controller
         //          'email' => 'required|Max:20|email',
         //          'username' => 'required|Max:20|string',
         //   ]);
+
+        return $r -> all();
     }
 }

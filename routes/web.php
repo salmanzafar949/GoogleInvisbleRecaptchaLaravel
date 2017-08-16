@@ -22,4 +22,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/form', 'FormsController@index')->name('form');
-Route::post('/form', 'FormsController@store')->name('form');
+Route::post('/form', 'FormsController@store');

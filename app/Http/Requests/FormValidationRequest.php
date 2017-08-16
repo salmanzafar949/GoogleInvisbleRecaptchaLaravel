@@ -28,6 +28,7 @@ class FormValidationRequest extends FormRequest
             'name' => 'required|Max:20|string',
             'email' => 'required|Max:50|email',
             'username' => 'required|Max:20|string',
+            'g-recaptcha-response' => 'required|captcha',
         ];
     }
 
