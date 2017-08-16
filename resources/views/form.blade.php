@@ -1,8 +1,4 @@
 @extends('layouts.app')
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
 @section('content')
   @if(count($errors) > 0)
     @foreach ($errors->all() as $error)
@@ -19,9 +15,4 @@
    @captcha()
    <button class="btn btn-success">Submit</button>
  </form>
- {{--  <script>
-   $(doument).ready(function() {
-             $('#form').submit();
-   });
- </script>  --}}
 @stop
