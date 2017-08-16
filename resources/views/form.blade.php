@@ -13,6 +13,6 @@
    <input type="email" name="email" class="form-control" placeholder="Enter your Email">
    <input type="text" name="username" class="form-control" placeholder="Enter your username">
    @captcha()
-   <button class="btn btn-success">Submit</button>
+   <button type="submit" class="btn btn-success">Submit</button>
  </form>
 @stop
